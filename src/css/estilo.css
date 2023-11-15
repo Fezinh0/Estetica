@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    @layer components {
+        
+        .logoM {
+           @apply w-[80px] rounded-lg animate-pulse shadow-sm shadow-black;
+        }
+
+        .Assinatura {
+            @apply mt-2 font-bold text-lg text-center w-[80%] ;
+        }
+
+        .imgProcedimento {
+            @apply w-[110px] h-[100px] rounded-lg ;
+        }
+    }
