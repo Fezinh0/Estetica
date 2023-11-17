@@ -15,4 +15,8 @@
         .imgProcedimento {
             @apply w-[110px] h-[100px] rounded-lg ;
         }
+
+        .imgAboutme {
+            @apply w-[300px] mr-10 my-10 rounded-md shadow-lg shadow-gray-400;
+        }
     }
