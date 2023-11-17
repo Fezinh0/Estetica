@@ -6,7 +6,7 @@
     <!-- Titulo do site/página -->
     <title>Nary Danielle Esteticista</title>
     <!-- Descrição do Site -->
-    <meta name="description" content="Estética Nary Danielle">
+    <meta name="description" content="Nary Danielle Estética Avançada">
     <!-- Icone Barra de Navegação -->
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <!-- Conexão output Tailwind CSS -->
@@ -24,7 +24,7 @@
 <body>
     <!-- Header -->
     <header class="">
-        <div class=" flex items-center justify-between ml-2">
+        <div class="mt-2 flex items-center justify-between ml-2">
             <!-- Logo Header -->
             <div>
                 <a href="index.html"><img src="img/logo.jpg" alt="" class="logoM"></a>
@@ -33,8 +33,8 @@
             <!-- Menu -->
             <div>
                 <ul class="list-none flex gap-4 mx-4">
-                    <a href="procedimentos.html"><li class="font-Edu p-1 hover:border-t-2 hover:border-b-2 hover:border-azulclarinho duration-1000 cursor-pointer">Procedimentos</li></a>
-                    <a href="#"><li class="font-Edu p-1 hover:border-t-2 hover:border-b-2 hover:border-azulclarinho duration-700 cursor-pointer">Quem sou eu?</li></a>
+                    <a href="procedimentos.html"><li class="font-Dancing text-xl p-1 hover:border-t-2 hover:border-b-2 hover:border-azulclarinho duration-1000 cursor-pointer">Procedimentos</li></a>
+                    <a href="#"><li class="font-Dancing text-xl p-1 hover:border-t-2 hover:border-b-2 hover:border-azulclarinho duration-700 cursor-pointer">Quem sou eu?</li></a>
                 </ul>
             </div>
            
@@ -43,29 +43,21 @@
     </header>
     <!-- Conteudo -->
     <main>
-        <div class="my-2">
+        <div class="my-2 flex items-center justify-center flex-col">
+
+            <!-- Introdução -->
+            <div class="flex justify-center items-center flex-col">
+                <span class="font-bold text-2xl font-Dancing">Seja bem-vindo(a)</span>
+                <span class="mx-10 flex justify-center items-center text-justify font-Dancing">Olá, sou a Nary Danielle, especializada em estética avançada e cosmetologia, estou aqui para lhe apresentar o melhor da estética, elevando sua autoestima!</span>
+            </div>  
+
             <!-- Fotos slick -->
-            <div class="flex flex-col shadow-md shadow-black" id="slick">
+            <div class="mt-4 flex justify-center items-center flex-col shadow-md shadow-black w-64" id="slick">
                 <img src="img/espaco1.jpg" alt="">
                 <img src="img/espaco2.jpg" alt="">
             </div>
             
-            <div class="flex flex-col justify-center items-center gap-2">
-                  <!-- Introdução -->
-            <div class="flex justify-center items-center flex-col">
-                <span class="font-bold text-2xl">Seja bem-vindo(a)</span>
-                <span class="mx-10 flex justify-center items-center text-justify">Olá, sou a Nary Danielle, especializada em estética avançada e cosmetologia, estou aqui para lhe apresentar o melhor da estética, elevando sua autoestima!</span>
-            </div>
             
-            <div class="w-64 h-10 flex justify-center items-center bg-azulclarinho rounded-md hover:bg-blue-400 duration-200 hover:text-white">
-                <a href=""><span><i class="fa-brands fa-whatsapp text-xl"></i></span></a>
-            </div>
-            
-            <div class="w-64 h-10 flex justify-center items-center bg-azulclarinho rounded-md hover:bg-blue-400 duration-200 hover:text-white">
-                <a href=""><span><i class="fa-brands fa-instagram text-xl"></i></span></a>
-            </div>
-            
-        </div>
            
             <!-- <div class="flex flex-col justify-center items-center gap-2">
                 <span class="font-Edu">Minhas Redes Sociais</span>
@@ -83,18 +75,18 @@
         <div class="flex flex-col gap-6">
         
             <!-- Logo Footer -->
-        <div class="flex justify-start ml-2 mt-2">
-            <img src="img/logo.jpg" alt="" class="logoM">
-        </div>
-      
-        <!-- Assinatura -->
-        <div class="mb-4 flex justify-center items-center">
-            <span class="Assinatura">Copyright © 2023 by Nary Danielle | All Rights Reserved</span>
-        </div>
+            <div class="flex justify-start ml-2 mt-2">
+                <img src="img/logo.jpg" alt="" class="logoM">
+            </div>
+        
+            <!-- Assinatura -->
+            <div class="mb-4 flex justify-center items-center">
+                <span class="Assinatura">Copyright © 2023 by Nary Danielle | All Rights Reserved</span>
+            </div>
 
         </div>
     </footer>
-
+    <!-- Conexões Js -->
     <script src="js/jquery-3.7.1.js"></script>
     <script src="slick/slick.js"></script>
 
