@@ -746,28 +746,12 @@ video {
   height: 2.5rem;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
 .w-40 {
   width: 10rem;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .transform {
@@ -895,11 +879,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -976,10 +955,6 @@ video {
   transition-duration: 700ms;
 }
 
-.hover\:border:hover {
-  border-width: 1px;
-}
-
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
 }
@@ -988,18 +963,9 @@ video {
   border-top-width: 2px;
 }
 
-.hover\:border-t:hover {
-  border-top-width: 1px;
-}
-
 .hover\:border-azulclarinho:hover {
   --tw-border-opacity: 1;
   border-color: rgb(135 206 250 / var(--tw-border-opacity));
-}
-
-.hover\:bg-azulclarinho:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(135 206 250 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-blue-400:hover {
